@@ -6,6 +6,15 @@ target 'HypeFirebase' do
   use_frameworks!
 
   # Pods for HypeFirebase
-  pod 'Firebase/Firestore'
+
+pod 'Firebase/Firestore'
+
+# Optionally, include the Swift extensions if you're using Swift.
+pod 'FirebaseFirestoreSwift'
+
+# add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+# add pods for any other desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
 
 end
